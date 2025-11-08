@@ -1,6 +1,6 @@
 #  User Feedback Application
 
-This is a full-stack application for submitting and viewing user feedback, built with React, Node/Express, and PostgreSQL.
+This is a full-stack application for submitting and viewing user feedback, built with React, Node+Express, and PostgreSQL.
 
 ---
 
