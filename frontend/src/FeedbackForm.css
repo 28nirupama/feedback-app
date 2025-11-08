@@ -1,0 +1,115 @@
+.feedback-wrapper {
+  width: 380px;
+  background: #e0e8ea;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  margin: 50px auto;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid rgb(45, 60, 225);
+}
+
+.feedback-header {
+  background: linear-gradient(135deg, #6a11cb, #0c5ce7);
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-header h2 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.close-btn {
+  border: black;
+  background: transparent;
+  color: rgb(232, 207, 207);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.feedback-form {
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+  border: 1px solid #010325;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus,
+.input-group select:focus {
+  border-color: #0e021c;
+  outline: black;
+  box-shadow: 0 0 4px rgba(63, 8, 121, 0.3);
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.status {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.feedback-footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #e1e1e1;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 10px 0;
+}
+
+.feedback-footer button {
+  background: transparent;
+  border: none;
+  color: #e9dddd;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.feedback-footer .active {
+  color: #e8e5eb;
+  font-weight: 600;
+}
